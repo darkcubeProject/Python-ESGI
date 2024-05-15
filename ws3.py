@@ -43,4 +43,3 @@ def expand (x,n=5):
     return(x//n,x%n)
 
 position_dame = ['2','8','11','16','23']
-
