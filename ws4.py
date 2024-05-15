@@ -1,3 +1,8 @@
+# Votre programme doit analyser un texte de votre choix, et représenter dans la console la
+# fréquence d’apparition de chaque lettre par un caractère ■ en ne dépassant pas une
+# largeur de 40 caractères de large. La largeur de la barre doit être proportionnelle à la
+# fréquence.
+
 import math
 from collections import Counter
 
