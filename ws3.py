@@ -42,4 +42,16 @@ def flatten (row,col,n=5):
 def expand (x,n=5):
     return(x//n,x%n)
 
+def check_pos(echiquier, row, col, n):
+    for i in range(row):
+        if echiquier[i][col] == 1:
+            return False
+    for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
+        if echiquier[i][j] == 1:
+            return False
+    for i, j in zip(range(row, -1, -1), range(col, n)):
+        if echiquier[i][j] == 1:
+            return False
+    return True
+
 position_dame = ['2','8','11','16','23']
