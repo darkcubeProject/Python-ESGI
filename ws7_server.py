@@ -43,3 +43,6 @@ def main():
         client_socket, addr = server.accept()
         client_handler = threading.Thread(target=handle_client, args=(client_socket, addr, grid))
         client_handler.start()
+
+if __name__ == "__main__":
+    main()
