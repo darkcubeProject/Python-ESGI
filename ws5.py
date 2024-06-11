@@ -23,12 +23,12 @@ def fichiers_backup(item, destination_backup):
         print(f"An error occurred while backing up {item}: {e}")
 
 def main():
-    config_file = 'config.json'  # Path to your config.json file
+    config_file = 'config.json'  # Chemin vers le fichier de conf json
     config = load_config(config_file)
 
     backup_destination = config['destination_backup']
 
-    # Create backup destination directory if it doesn't exist
+    # Création du répertoire de backup s'il n'existe pas
     if not os.path.exists(backup_destination):
         os.makedirs(backup_destination)
 
