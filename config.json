@@ -1,9 +1,9 @@
 {
     "fichiers_backup": [
-        "/path/to/file1.txt",
-        "/path/to/directory1",
-        "/path/to/file2.txt",
-        "/path/to/directory2"
+        "/etc/apt/sources.list",
+        "/etc/hosts",
+        "/etc/ssh/sshd_config",
+        "/var/log/syslog"
     ],
-    "destination_backup": "/path/to/backup_destination"
+    "destination_backup": "/opt/backup"
 }
