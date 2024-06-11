@@ -1,0 +1,9 @@
+{
+    "fichiers_backup": [
+        "/path/to/file1.txt",
+        "/path/to/directory1",
+        "/path/to/file2.txt",
+        "/path/to/directory2"
+    ],
+    "destination_backup": "/path/to/backup_destination"
+}
