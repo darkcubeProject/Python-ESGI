@@ -33,7 +33,7 @@ def main():
         os.makedirs(backup_destination)
 
     for item in config['fichiers_backup']:
-        fichiers_backup(item, destination_backup)
+        fichiers_backup(item, backup_destination)
 
 if __name__ == "__main__":
     main()
