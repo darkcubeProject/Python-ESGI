@@ -1,0 +1,9 @@
+{
+    "fichiers_backup": [
+        "/etc/apt/sources.list",
+        "/etc/hosts",
+        "/etc/ssh/sshd_config",
+        "/var/log/syslog"
+    ],
+    "destination_backup": "/opt/backup"
+}
