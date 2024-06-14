@@ -1,8 +1,13 @@
 import random
-choix = ["tomate", "fraise", "melon", "pomme"]
+#choix = ["tomate", "fraise", "melon", "pomme"]
+#solution = random.choice(choix)
+
+
+with open('wordlist.txt', 'r') as file:
+    choix = file.read().splitlines()
+
 solution = random.choice(choix)
 
-solution = "pomme"
 tentatives = 7
 affichage = ""
 lettres_trouvees = ""
