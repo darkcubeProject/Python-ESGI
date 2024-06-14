@@ -54,18 +54,4 @@ while tentatives > 0:
       break
      
 print("\n    * Fin de la partie *    ")
-# wordlist = 'wordlist.txt'
 
-# # Lire le contenu du fichier et importer les mots dans une liste
-# with open(wordlist, 'r') as fichier:
-#     # Lire le fichier entier
-#     contenu = fichier.read()
-
-#     # Si les mots sont séparés par des espaces ou des virgules
-#     # mots = contenu.split()
-
-#     # Si les mots sont sur des lignes séparées
-#     mots = contenu.splitlines()
-
-# # Afficher la liste des mots importés
-# print(mots)
